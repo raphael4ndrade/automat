@@ -1,0 +1,31 @@
+{
+  "name": "automats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server './' -p 8080",
+    "dev": "budo index.js -l -o -s build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphael4ndrade/automat.git"
+  },
+  "keywords": [
+    "pixijs",
+    "js"
+  ],
+  "author": "raphael4ndrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphael4ndrade/automat/issues"
+  },
+  "homepage": "https://github.com/raphael4ndrade/automat#readme",
+  "dependencies": {
+    "pixi.js": "^4.5.2"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "budo": "^10.0.3"
+  }
+}
